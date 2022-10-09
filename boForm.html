@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Owner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- sign in form -->
+    
+    <form action="action_page.php">
+        <div class="container">
+          <h1 style="padding-left: 0%; font-size: 35px;">Create profile </h1>
+         
+      
+          <label for="bname"><b>Business name: </b></label><br>
+          <input type="text" placeholder="xyz" name="bname" id="bname" required>
+          <br>
+          
+          <label for="bcategory"><b>Business Category: </b></label><br>
+          <input type="text" placeholder="eg: F&B" name="bcategory" id="bcategory" required>
+          <br>
+
+          <label for="email"><b>Email: </b></label><br>
+          <input type="text" placeholder="xyz@gmail.com" name="email" id="email" required>
+          <br>
+
+          <label for="bowner"><b>Business Owner: </b></label><br>
+          <input type="text" placeholder="Owner name" name="bowner" id="bowner" required>
+          <br>
+          
+          <label for="bsummary"><b>Business Summary: (in 150 words)</b></label><br>
+          <textarea style="background-color: #f1f1f1; border: 1px black; width: 50%; height: 5%;" name="bsummary" id="bsummary" cols="30" rows="4" required></textarea>
+          <br><br>
+
+          <label for="bdiscription"><b>Business discription: (in 1500 words)</b></label><br>
+          <textarea style="background-color: #f1f1f1; border: 1px black; width: 50%; height: 5%;" name="bdiscription" id="bdiscription" cols="30" rows="10" required></textarea>
+          <br><br>
+
+
+          <label for="revenue"><b>Revenue Generated: </b></label><br>  
+            <input style="background-color: #f1f1f1; width: 50%; height: 7%; border: solid black 1px;"  type="number" name="revenue" id="revenue" required>
+          <br><br>
+
+          <label for="gprofit"><b>Gross Profit: </b></label><br>  
+            <input style="background-color: #f1f1f1; width: 50%; height: 7%; border: solid black 1px;"  type="number" name="gprofit" id="gprofit" required>
+          <br><br>
+
+
+          <label for="netprofit"><b>Net Profit: </b></label><br>
+            <input style="background-color: #f1f1f1; width: 50%; height: 7%; border: solid black 1px;"  type="number" name="netprofit" id="netprofit" required>
+          <br><br>
+
+          <label for="fund"><b>Minimum Fund Required: </b></label><br>
+            <input style="background-color: #f1f1f1; width: 50%; height: 7%; border: solid black 1px;"  type="number" name="fund" id="fund" required>
+          <br><br>
+          
+          
+         
+      
+      
+
+          <button type="submit" class="createbtn">Create</button>
+
+          <br>
+          <button type="submit" class="back"><a href="dashboard1.html">Back to dashboard</a></button>
+
+          <div class="container signin">
+            
+          </div>
+        
+
+        </div>
+      
+        
+      </form>
+
+
+      <?php
+    
+      ?>
+    
+</body>
+</html>
